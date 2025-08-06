@@ -1,7 +1,7 @@
 n = int(input('Nhập một số: '))
-i = 1
-i2 =0
-while i2<n :
-    i += (i+1)
-    i2 += 1
+i = 0
+lan = 0
+while lan != n:
+    i +=lan
+    lan += 1
 print(i)
